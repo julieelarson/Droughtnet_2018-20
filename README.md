@@ -9,10 +9,10 @@ Experimental grazing and rainfall manipulations reveal rangeland responses depen
 Author Names: Julie E. Larson*1,2,3, Brian Anacker4, Thomas Merchant1,2, Katharine Suding1
 
 Author Institutions and Addresses: 
-1 Department of Ecology and Evolutionary Biology, University of Colorado, Boulder CO 80303, USA
-2 Institute of Arctic and Alpine Research, University of Colorado, Boulder CO 80309, USA
-3 School of Environmental and Forest Sciences, University of Washington, Seattle, WA 98195,USA
-4 City of Boulder Open Space & Mountain Parks, Boulder CO 80301, USA
+- 1 Department of Ecology and Evolutionary Biology, University of Colorado, Boulder CO 80303, USA
+- 2 Institute of Arctic and Alpine Research, University of Colorado, Boulder CO 80309, USA
+- 3 School of Environmental and Forest Sciences, University of Washington, Seattle, WA 98195,USA
+- 4 City of Boulder Open Space & Mountain Parks, Boulder CO 80301, USA
 
 *Corresponding Author: larsonju@uw.edu
 
