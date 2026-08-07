@@ -48,3 +48,6 @@ The repository includes the following datasets:
 **(6) GreennessCurveMetrics_2020.csv**
 - This file contains forage greenness variables used in analysis (day of peak greenness, growing season length).
 - Each row represents observations per sampled plot in 2020.
+
+
+**More information about the variables in each data file can be found in README_Metadata.csv**
