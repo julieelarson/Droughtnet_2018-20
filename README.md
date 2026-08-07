@@ -4,7 +4,8 @@
 
 This repository contains data used to conduct analyses and create figures included in the following manuscript:
 
-Experimental grazing and rainfall manipulations reveal rangeland responses dependent on interannual variation and local species composition.
+Experimental grazing and rainfall manipulations reveal rangeland responses dependent on interannual variation and local species composition. Accepted, Agriculture, Ecosystems & Environment. 
+
 Author Names: Julie E. Larson*1,2,3, Brian Anacker4, Thomas Merchant1,2, Katharine Suding1
 
 Author Institutions and Addresses: 
