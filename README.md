@@ -1,4 +1,4 @@
-<img width="307" height="21" alt="image" src="https://github.com/user-attachments/assets/cd29f5d6-5aec-4652-a3e3-b028426dbdb6" /># Data from: Experimental grazing and rainfall manipulations reveal rangeland responses dependent on interannual variation and local species composition
+# Data from: Experimental grazing and rainfall manipulations reveal rangeland responses dependent on interannual variation and local species composition
 
 This repository contains data used to conduct analyses and create figures included in the following manuscript:
 
