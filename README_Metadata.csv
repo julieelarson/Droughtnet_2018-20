@@ -1,0 +1,74 @@
+File_Name,Variable,Variable_Type,Units,Description
+Site_Climate&Treatment_Info_2018-20.csv,year,integer,NA,"year of study (2018, 2019, 2020)"
+Site_Climate&Treatment_Info_2018-20.csv,date,date,NA,date of the record in format m/d/yyyy
+Site_Climate&Treatment_Info_2018-20.csv,julian_day,integer,NA,day of the year from 1 (1 January) to 365 (31 December)
+Site_Climate&Treatment_Info_2018-20.csv,min_temp_2m,numeric,degrees C,daily minimum temperatures 2m above soil surface 
+Site_Climate&Treatment_Info_2018-20.csv,max_temp_2m,numeric,degrees C,daily maximum temperatures 2m above soil surface 
+Site_Climate&Treatment_Info_2018-20.csv,avg_temp_2m,numeric,degrees C,daily average temperatures 2m above soil surface 
+Site_Climate&Treatment_Info_2018-20.csv,precip_mm,numeric,mm,"daily total precipitation (yearly, from Jan 1) in mm"
+Site_Climate&Treatment_Info_2018-20.csv,cum_precip_mm,numeric,mm,"cumulative precipitation (yearly, from Jan 1) in mm"
+Site_Climate&Treatment_Info_2018-20.csv,cum_precip_dry_mm,numeric,mm,"estimated cumulative precipitation in the dry rainfall treatment, assuming  exclusion of 66% of rainfall totals when shelters were deployed on 'dry' plots (i.e. shelter _status=1)"
+Site_Climate&Treatment_Info_2018-20.csv,cum_precip_wet_mm,numeric,mm,"estimated cumulative precipitation in the wet rainfall treatment, assuming addition of 66% of rainfall totals when water addition events occurred (i.e. water_add_event = 1)                    "
+Site_Climate&Treatment_Info_2018-20.csv,shelter_status,integer,NA,"1 if rainfall shelters were on for a given day (row), 0 if shelters were not on"
+Site_Climate&Treatment_Info_2018-20.csv,spring_graze,integer,NA,"1 if growing season treatment was being implemented on a given day (no shelters on), otherwise 0"
+Site_Climate&Treatment_Info_2018-20.csv,fall_graze,integer,NA,"1 if dormant season treatment was being implemented on a given day (no shelters on), otherwise 0"
+Site_Climate&Treatment_Info_2018-20.csv,water_add_event,integer,NA,"1 if water was added to water surplus level of rainfall treatment (i.e. 'wet') on a given day, otherwise 0"
+Site_Climate&Treatment_Info_2018-20.csv,water_add_precip_tot_mm,numeric,mm,"the size of the rainfall event (mm, from NWTC data) that was captured by shelters"
+Site_Climate&Treatment_Info_2018-20.csv,soil_vwc_measured,integer,NA,"1 if soil volumetric water content was measured on a given day, otherwise 0"
+Site_Climate&Treatment_Info_2018-20.csv,cum_precip_over_years_ambient,numeric,mm,"cumulative ambient precipitation over 3 years, from 1 January 2018 to 31 December 2021"
+Site_Climate&Treatment_Info_2018-20.csv,cum_precip_over_years_dry,numeric,mm,"estimated cumulative precipitation over 3 years (from 1 January 2018 to 31 December 2021) in the dry rainfall treatment, assuming  exclusion of 66% of rainfall totals when shelters were deployed on 'dry' plots (i.e. shelter _status=1)"
+Site_Climate&Treatment_Info_2018-20.csv,cum_precip_over_years_wet,numeric,mm,"estimated cumulative precipitation over 3 years (from 1 January 2018 to 31 December 2021) in the wet rainfall treatment, assuming addition of 66% of rainfall totals when water addition events occurred (i.e. water_add_event = 1)                    "
+Site_Climate&Treatment_Info_2018-20.csv,cum_julian_day,integer,NA,"cumulative day of the year over three years, from 1 (1 Januar 2018) to 1096 (31 December 2021)"
+,,,,
+Soil_VWC_2018-20.csv,year,integer,NA,study year
+Soil_VWC_2018-20.csv,date,character,NA,sampling date in month/day/year
+Soil_VWC_2018-20.csv,day_of_year,integer,NA,numeric day of the year (also called Julian day)
+Soil_VWC_2018-20.csv,block,integer,NA,block number
+Soil_VWC_2018-20.csv,plot,integer,NA,plot number (nested within block)
+Soil_VWC_2018-20.csv,treat,factor,NA,"assigned grazing and rainfall treatment (9 unique combinations; UG-ungrazed, DS-dormant season graze, GS-growing season graze; C-Control rainfall; D-dry rainfall; W-wet rainfall)"
+Soil_VWC_2018-20.csv,graze_treat,factor,NA,"assigned grazing treatment (UG-ungrazed, DS-dormant season graze, GS-growing season graze)"
+Soil_VWC_2018-20.csv,rain_treat,factor,NA,assigned rainfall treatment (C-control; D-dry; W-wet)
+Soil_VWC_2018-20.csv,rain_shelters_on,factor,NA,binary variable to indicate whether rainfall shelters were installed on plots at the time of sampling
+Soil_VWC_2018-20.csv,vwc_mid_FS,numeric,%,volumetric water content estimated via time domain reflectometry (Field Scout TDR-150)
+Soil_VWC_2018-20.csv,day_since_wateradd,integer,days,number of days since last water addition event occurred for 'wet' treatment plots
+,,,,
+Plant_Plot_Metrics_2018-20.csv,year,integer,NA,study year
+Plant_Plot_Metrics_2018-20.csv,block,integer,NA,block number
+Plant_Plot_Metrics_2018-20.csv,plot,integer,NA,plot number (nested within block)
+Plant_Plot_Metrics_2018-20.csv,biomass_samping_date,date,NA,date of the record in format m/d/yyyy
+Plant_Plot_Metrics_2018-20.csv,rain_trt,factor,NA,assigned rainfall treatment (C-control; D-dry; W-wet)
+Plant_Plot_Metrics_2018-20.csv,graze_trt,factor,NA,"assigned grazing treatment (UG-ungrazed, DS-dormant season graze, GS-growing season graze)"
+Plant_Plot_Metrics_2018-20.csv,sampling_notes,character,NA,relevant sampling notes
+Plant_Plot_Metrics_2018-20.csv,biomass_g,numeric,grams,weight of oven-dried clipped biomass from 0.05m2 biomass sampling areas
+Plant_Plot_Metrics_2018-20.csv,bare_visual_cov,integer,%,visually-estimed aerial percent cover of bare soil from 0.5m2 plant community subplots
+,,,,
+ForageQuality_2020.csv,block,integer,NA,block number
+ForageQuality_2020.csv,plot,integer,NA,plot number (nested within block)
+ForageQuality_2020.csv,notes,character,NA,relevant sampling notes
+ForageQuality_2020.csv,rain_trt,factor,NA,assigned rainfall treatment (C-control; D-dry; W-wet)
+ForageQuality_2020.csv,graze_trt,factor,NA,"assigned grazing treatment (UG-ungrazed, DS-dormant season graze, GS-growing season graze)"
+ForageQuality_2020.csv,crude_protein,numeric,%,"Crude protein,  includes true protein and nonprotein nitrogen"
+ForageQuality_2020.csv,digestible_energy,numeric,Mcal/lb,Digestible energy (amount of energy)
+ForageQuality_2020.csv,relative_feed_value,numeric,%,"Relative feed value (overall nutrient value of the forage, estiated as (% Digestible Dry Matter x % Dry Matter Intake)/100 "
+,,,,
+Plant_Plot_Cover_AreaClipped_2018-20.csv,block,integer,NA,block number
+Plant_Plot_Cover_AreaClipped_2018-20.csv,plot,integer,NA,plot number (nested within block)
+Plant_Plot_Cover_AreaClipped_2018-20.csv,year,integer,NA,study year
+Plant_Plot_Cover_AreaClipped_2018-20.csv,rain_trt,factor,NA,assigned rainfall treatment (C-control; D-dry; W-wet)
+Plant_Plot_Cover_AreaClipped_2018-20.csv,graze_trt,factor,NA,"assigned grazing treatment (UG-ungrazed, DS-dormant season graze, GS-growing season graze)"
+Plant_Plot_Cover_AreaClipped_2018-20.csv,species_code,character,NA,short-hand code for the species (or lowest taxonomic unit) of the observed plant
+Plant_Plot_Cover_AreaClipped_2018-20.csv,genus,character,NA,genus name of the observed plant (if known)
+Plant_Plot_Cover_AreaClipped_2018-20.csv,species,character,NA,species name of the observed plant (if known)
+Plant_Plot_Cover_AreaClipped_2018-20.csv,origin,character,NA,"origin of the observed plant ('native' if it is recognized as native to Colorado, USA; otherwise 'exotic')"
+Plant_Plot_Cover_AreaClipped_2018-20.csv,growth_form,factor,NA,"growth form of the observed plant (shrub, forb, graminoid)"
+Plant_Plot_Cover_AreaClipped_2018-20.csv,life_history,factor,NA,life history of the observed plant (perennial or annual-biennial)
+Plant_Plot_Cover_AreaClipped_2018-20.csv,photo_path,factor,NA,photosynthetic pathway of the observed plant (C3 or C4)
+Plant_Plot_Cover_AreaClipped_2018-20.csv,fun_grp,factor,NA,"functional group of the observed plant combining growth form and life history (Ann-Bi:annual or biennial plant, F:perennial forb, G_C3: C3 graminoid, G_C4: C4 graminoid, S:shrub) "
+Plant_Plot_Cover_AreaClipped_2018-20.csv,area_clipped,numeric,NA,"area of the individual plant, clipped to only include portions within the 0.50m2 plot boundary (based on visually-estimated aerial cover)"
+Plant_Plot_Cover_AreaClipped_2018-20.csv,richness_only,factor,NA,"Y' if the observed plant did not occur within the 0.5m2 community subplot of the larger 1m2 plot (and consequently, was only included only in estimates of plot-level species richness)"
+,,,,
+GreennessCurveMetrics_2020.csv,block,integer,NA,block number
+GreennessCurveMetrics_2020.csv,plot,integer,NA,plot number (nested within block)
+GreennessCurveMetrics_2020.csv,year,integer,NA,study year
+GreennessCurveMetrics_2020.csv,max_gi_doy,numeric,NA,"day of peak greenness, estimated as the day of year with the maximum modelled greeness index (extracted from greeness curves of each plot generated from repeat photography) "
+GreennessCurveMetrics_2020.csv,gs_length,numeric,days,"growing season length, estimated as the difference between greenup and senescence day of year; the latter were estimated as as the day of year on which modelled greenness rose above and fell below, respectively, a common greenness threshold (0.3405)"
